@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_is_perfect - func checks if a binary tree is perfect
- * @tree: ptr to the root node 
+ * @tree: ptr to the root node
  * ..of the tree to check
  *
  * Return: 1 -> tree is perfect || 0 -> tree not perfect
