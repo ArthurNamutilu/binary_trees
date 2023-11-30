@@ -2,7 +2,7 @@
 /**
  * new_node - creates new_node in linked_list
  * @node: pointer to created node
- * Return: created node 
+ * Return: created node
  */
 link_t *new_node(binary_tree_t *node)
 {
@@ -22,15 +22,15 @@ link_t *new_node(binary_tree_t *node)
  * free_q - frees nodes at the linked list
  * @head: Node of the linked_list
  */
-void free_q(link_t *h)
+void free_q(link_t *head)
 {
 	link_t *tmpNode;
 
-	while (h)
+	while (head)
 	{
-		tmpNode = h->next;
-		free(h);
-		h = tmpNode;
+		tmpNode = head->next;
+		free(head);
+		head = tmpNode;
 	}
 }
 /**
